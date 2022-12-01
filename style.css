@@ -1,3 +1,11 @@
+background{
+position: relative;
+width: 320px;
+height: 4910px;
+
+background: white;
+}
+
 .header {
     position: absolute;
     width: 220px;
