@@ -1,21 +1,88 @@
-background{
-position: relative;
-width: 320px;
-height: 4910px;
-
-background: white;
+*{
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.header {
-    position: absolute;
-    width: 220px;
-    height: 100px;
-    left: 16px;
-    top: 104px;
-    
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 100%;
-  }
+body {
+  background-color: rgb(213, 213, 213);
+
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 320px;
+  height: 4910px;
+}
+
+.triangle-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.square-icon {
+  position: absolute;
+  left: 37px;
+  top: 0;
+
+}
+
+.nav-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+}
+
+.headline {
+  margin-top: 5.5rem;
+  margin-bottom: 1rem;  
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.paragraph {
+  width: 288px;  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+
+  color: #1A2236;
+
+}
+
+.start-button{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background-color: #1A2236;
+  width: 100%;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border: none;
+  margin-top: 2rem;
+}
+
+.start-button:hover{
+  transition: all 150ms;
+  opacity: 0.8;
+  cursor: pointer;
+}
