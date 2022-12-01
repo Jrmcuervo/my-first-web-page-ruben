@@ -1,11 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
 }
 
 body {
   background-color: rgb(213, 213, 213);
-
 }
 
 .container {
@@ -29,14 +28,12 @@ body {
   position: absolute;
   left: 37px;
   top: 0;
-
 }
 
 .nav-icon {
   position: absolute;
   top: 1rem;
   right: 1rem;
-
 }
 
 .headline {
@@ -46,7 +43,6 @@ body {
   height: 100px;
   left: 16px;
   top: 104px;
-  
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
@@ -62,12 +58,10 @@ body {
   font-size: 15px;
   line-height: 25px;
   letter-spacing: -0.01em;
-
   color: #1A2236;
-
 }
 
-.start-button{
+.start-button {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -81,7 +75,7 @@ body {
   margin-top: 2rem;
 }
 
-.start-button:hover{
+.start-button:hover {
   transition: all 150ms;
   opacity: 0.8;
   cursor: pointer;
