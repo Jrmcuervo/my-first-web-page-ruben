@@ -1,0 +1,20 @@
+{
+  "name": "my-first-web-page-ruben",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jrmcuervo/my-first-web-page-ruben.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jrmcuervo/my-first-web-page-ruben/issues"
+  },
+  "homepage": "https://github.com/Jrmcuervo/my-first-web-page-ruben#readme"
+}
