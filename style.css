@@ -43,7 +43,7 @@ header {
 
 .headline {
   margin-top: 5.5rem;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
   width: 220px;
   height: 100px;
   left: 16px;
@@ -56,7 +56,7 @@ header {
 }
 
 .paragraph {
-  width: 288px;  
+  width: 288px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
