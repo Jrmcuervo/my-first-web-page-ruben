@@ -48,7 +48,7 @@ header {
   height: 100px;
   left: 16px;
   top: 104px;
-  font-family: 'Playfair-Display', serif;;
+  font-family: 'Playfair-Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -57,7 +57,7 @@ header {
 
 .paragraph {
   width: 288px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -67,7 +67,7 @@ header {
 }
 
 .start-button {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
