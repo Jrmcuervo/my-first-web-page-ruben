@@ -43,8 +43,8 @@ header {
 
 .geometry-icon {
   position: absolute;
-  right: 0rem;
   top: 30rem;
+  right: 0;
 }
 
 .headline {
