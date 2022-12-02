@@ -21,7 +21,7 @@ body {
   background: white;
   background-image: url(./icons/superior2.png), url(icons/superior1.png), url(/icons/geometry.png);
   background-repeat: no-repeat;
-  background-position-x: 0%, 10%, 50%;
+  background-position-x: 0%, 15%, 50%;
   background-position-y: 0%, 0%, 85%;
 }
 
