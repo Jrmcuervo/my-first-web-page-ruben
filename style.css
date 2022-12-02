@@ -18,6 +18,11 @@ body {
   height: 4910px;
 }
 
+header {
+  display: relative;
+  width: 100%;
+}
+
 .triangle-icon {
   position: absolute;
   left: 0;
