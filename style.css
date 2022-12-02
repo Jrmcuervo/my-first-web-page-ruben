@@ -12,10 +12,8 @@ body {
   background-color: white;
   padding: 1rem;
   margin: auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
-  width: 320px;
-  height: 4910px;
+  width: 100%;
+  height: 100vh;
 }
 
 header {
