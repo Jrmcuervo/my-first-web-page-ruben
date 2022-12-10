@@ -12,7 +12,7 @@ ul {
   color: white;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 h2, h3 {
@@ -28,14 +28,16 @@ h2, h3 {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .menu {
   display: block;
-  margin-left: 240px;
+  padding: 0;
+  margin-left: auto;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .card-content {
@@ -62,17 +64,27 @@ h2, h3 {
 }
 
 .link-headline {
-  display: flex;
-  align-items: center;
+  display: block;
+  text-align: center;
+  padding: 1rem;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  text-align: center;
   text-decoration: none;
   background: #1A2236;
   color: white;
-  padding: 1rem;
-  padding-left: 75px;
+  border: 2px solid #1A2236;
+}
+
+.link-headline:hover {
+  background: none;
+  color: #1A2236;
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .technologies {
@@ -92,7 +104,7 @@ h2, h3 {
 }
 
 .headline {
-  height: 70vh;
+  height: 75vh;
   background-image: url(/icons/geometry1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -117,6 +129,8 @@ h2, h3 {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  cursor: pointer;
+  width: max-content;
 }
 
 .about-cards {
@@ -137,8 +151,7 @@ h2, h3 {
 }
 
 .card {
-  padding: 2.5rem;
-  padding-bottom: 3rem;
+  padding: 5rem 3rem;
   margin: 1rem 0 1rem 0;
 }
 
@@ -162,4 +175,14 @@ h2, h3 {
   background-image: url(icons/light-bulb.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
+}
+
+.projects {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+}
+
+.projects div {
+  display: flex;
+  flex-direction: column;
 }
