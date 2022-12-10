@@ -34,11 +34,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello_microverse] <a name="about-project"></a>
+# 📖 [My portfolio] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[hello_microverse]** is the first repository of the microverse course, this is a project to show you how to use linters and how to ignore files using gitignore file.
+**[My portfolio]** It is a project that contains the replica of the mobile version of a figma template, the main content consists of an html document and a css, it includes the code that shapes the replica, uses flexbox, grid, hover, among others. The general idea of the project is to get as close as possible to the original.
 
 ## 🛠 Built With <a name="built-with"></a>
 
