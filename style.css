@@ -30,7 +30,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30%;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .menu {
@@ -48,17 +48,18 @@ h3 {
 }
 
 .title {
+  flex-direction: column;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
-  margin-top: auto;
+  margin: 1.5rem .5rem;
 }
 
 .paragraph-headline {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -79,6 +80,11 @@ h3 {
 
 .link-headline:hover {
   background: none;
+  color: #1a2236;
+}
+
+.link-headline:active {
+  margin: 2px;
   color: #1a2236;
 }
 
@@ -106,6 +112,8 @@ h3 {
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
   height: 75vh;
   background-image: url(/icons/geometry1.png);
   background-repeat: no-repeat;
@@ -153,13 +161,13 @@ h3 {
 }
 
 .card {
-  padding: 5rem 3rem;
+  padding: 3rem 3rem;
   margin: 1rem 0 1rem 0;
 }
 
 .bgc1 {
   background: #1c528a;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   background-image: url(icons/hash.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -181,8 +189,6 @@ h3 {
 
 .projects {
   display: grid;
-
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
 }
 
 .projects div {
