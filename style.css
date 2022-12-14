@@ -207,6 +207,10 @@ h3 {
   list-style: none;
 }
 
+.formli::placeholder {
+  text-align: top left;
+}
+
 label {
   display: inline-block;
   width: 90px;
@@ -235,10 +239,22 @@ textarea:focus {
 }
 
 .footerstyle {
-  display: block;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 1.5rem;
   height: 44px;
 }
+
+.footerstyle svg {
+  display: flex;
+  align-content: center;
+}
+
+.iconstyle {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 
