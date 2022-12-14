@@ -22,11 +22,11 @@ h3 {
 }
 
 .spacing {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .bkg {
-  background-image: url(/icons/topimage.png);
+  background-image: url(./icons/topimage.png);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30%;
@@ -115,7 +115,7 @@ h3 {
   display: flex;
   flex-direction: column;
   height: 75vh;
-  background-image: url(/icons/geometry1.png);
+  background-image: url(./icons/geometry1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
@@ -168,21 +168,22 @@ h3 {
 .bgc1 {
   background: #1c528a;
   margin-top: 1.5rem;
-  background-image: url(icons/hash.svg);
+  background-image: url(./icons/hash.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .bgc2 {
   background: #e2505c;
-  background-image: url(icons/red-square.svg);
+  background-image: url(./icons/red-square.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .bgc3 {
   background: #febf52;
-  background-image: url(icons/light-bulb.svg);
+  margin-bottom: 1.5rem;
+  background-image: url(./icons/light-bulb.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -195,3 +196,49 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
+.stylefooter {
+  padding-top: 2.5rem;
+}
+
+.formli {
+  font-size: 10px;
+  color:#7D7C84;
+  list-style: none;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+}
+
+input {
+  height: 3.2rem;
+}
+
+input,
+textarea {
+  width: 17rem;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 7rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.footerstyle {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  height: 44px;
+}
+
+
