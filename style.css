@@ -1,32 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-}
-
-ul {
-  padding-left: 0;
-  color: white;
-}
-
-img {
-  width: 100%;
-}
-
-h2,
-h3 {
-  margin: 0;
-}
-
 .spacing {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .bkg {
-  background-image: url(/icons/topimage.png);
+  background-image: url(./icons/topimage.png);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 30%;
@@ -52,7 +29,7 @@ h3 {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 100%;
   color: #1a2236;
   margin: 1.5rem 0.5rem;
@@ -61,8 +38,8 @@ h3 {
 .paragraph-headline {
   margin-bottom: 2rem;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
   color: #1a2236;
 }
 
@@ -71,7 +48,7 @@ h3 {
   text-align: center;
   padding: 1rem;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   text-decoration: none;
   background: #1a2236;
   color: white;
@@ -84,7 +61,6 @@ h3 {
 }
 
 .link-headline:active {
-  margin: 2px;
   color: #1a2236;
 }
 
@@ -107,7 +83,7 @@ h3 {
   color: black;
   padding: 0.5rem;
   font-weight: 300;
-  font-size: 10.3334px;
+  font-size: 0.7rem;
   line-height: 80%;
 }
 
@@ -115,7 +91,7 @@ h3 {
   display: flex;
   flex-direction: column;
   height: 75vh;
-  background-image: url(/icons/geometry1.png);
+  background-image: url(./icons/geometry1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
@@ -123,21 +99,21 @@ h3 {
 
 .subtitle {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #fff;
 }
 
 .button {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0.7rem;
   gap: 0.8rem;
   color: white;
   background: none;
-  border: 1.5px solid white;
+  border: 2px solid white;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.4rem;
   text-align: center;
   cursor: pointer;
   width: max-content;
@@ -145,16 +121,16 @@ h3 {
 
 .about-cards {
   font-weight: 800;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #fff;
 }
 
 .about-info {
   margin-left: 0;
   font-weight: 580;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   letter-spacing: -0.0525em;
   color: #fff;
   list-style-position: inside;
@@ -168,21 +144,22 @@ h3 {
 .bgc1 {
   background: #1c528a;
   margin-top: 1.5rem;
-  background-image: url(icons/hash.svg);
+  background-image: url(./icons/hash.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .bgc2 {
   background: #e2505c;
-  background-image: url(icons/red-square.svg);
+  background-image: url(./icons/red-square.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 
 .bgc3 {
   background: #febf52;
-  background-image: url(icons/light-bulb.svg);
+  margin-bottom: 1.5rem;
+  background-image: url(./icons/light-bulb.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -194,4 +171,56 @@ h3 {
 .projects div {
   display: flex;
   flex-direction: column;
+}
+
+.stylefooter {
+  padding-top: 2.5rem;
+}
+
+.formli {
+  color: #7d7c84;
+  list-style: none;
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footerstyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3.5rem 0;
+  height: 2.75rem;
+  width: 100%;
+}
+
+.footerstyle svg {
+  display: flex;
+  align-content: center;
+}
+
+.teal {
+  color: #92dcdc;
+  display: flex;
+  justify-content: left;
+  gap: 0.7rem;
+}
+
+.textform {
+  font-size: 1rem;
+}
+
+.pvr {
+  padding: 1rem 0;
+  background: #1a2236;
+}
+
+.iconstyle {
+  display: flex;
+  justify-content: space-around;
 }
