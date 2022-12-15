@@ -202,11 +202,10 @@ h3 {
 }
 
 .formli {
-  color:#7D7C84;
+  color: #7d7c84;
   list-style: none;
   width: 100%;
-  padding: .8rem .5rem;
-
+  padding: 0.8rem 0.5rem;
 }
 
 input,
@@ -228,9 +227,8 @@ textarea:focus {
 .footercontainer {
   display: flex;
   flex-direction: column;
-  gap: .5rem; 
+  gap: 0.5rem;
 }
-
 
 .footerstyle {
   display: flex;
@@ -246,14 +244,14 @@ textarea:focus {
 }
 
 .teal {
-  color:#92DCDC;
+  color: #92dcdc;
   display: flex;
   justify-content: left;
-  gap: .7rem;
+  gap: 0.7rem;
 }
 
 .textform {
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 .pvr {
@@ -265,6 +263,3 @@ font-size: 1rem;
   display: flex;
   justify-content: space-around;
 }
-
-
-
