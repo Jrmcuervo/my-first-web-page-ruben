@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 7rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
