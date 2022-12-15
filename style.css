@@ -202,34 +202,21 @@ h3 {
 }
 
 .formli {
-  font-size: 10px;
   color:#7D7C84;
   list-style: none;
-}
+  width: 100%;
+  padding: .8rem .5rem;
 
-.formli::placeholder {
-  text-align: top left;
-}
-
-label {
-  display: inline-block;
-  width: 90px;
-}
-
-input {
-  height: 3.2rem;
 }
 
 input,
 textarea {
-  width: 17rem;
   box-sizing: border-box;
   border: 1px solid #999;
   border-radius: 4px;
 }
 
 textarea {
-  vertical-align: top;
   height: 7rem;
 }
 
@@ -238,17 +225,40 @@ textarea:focus {
   border-color: #000;
 }
 
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem; 
+}
+
+
 .footerstyle {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin: 1rem 0 3.5rem 0;
   height: 44px;
 }
 
 .footerstyle svg {
   display: flex;
   align-content: center;
+}
+
+.teal {
+  color:#92DCDC;
+  display: flex;
+  justify-content: left;
+  gap: .7rem;
+}
+
+.textform {
+font-size: 1rem;
+}
+
+.pvr {
+  padding: 1rem 0;
+  background: #1a2236;
 }
 
 .iconstyle {
