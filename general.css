@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 
-h2{
+h2 {
   flex-direction: column;
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -25,6 +25,7 @@ h2{
   line-height: 100%;
   color: #1a2236;
   margin: 1.5rem 0.5rem;
+  padding: 1.5rem;
 }
 
 h2,
