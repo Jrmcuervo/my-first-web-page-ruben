@@ -249,11 +249,6 @@
   height: 2.7rem;
 }
 
-.footer__button svg {
-  display: flex;
-  align-content: center;
-}
-
 .footer__pvr {
   padding: 1.5rem 0;
   background: #1a2236;
@@ -271,13 +266,14 @@
   justify-content: space-around;
 }
 
-@media (max-width: 768px) {
-  .header__ul {
+@media only screen and (min-width: 768px) {
+  /* ======HEADER====== */
+  .header {
+    background: #fff;
+  }
+  .header__menu {
     display: none;
   }
-}
-
-@media (min-width: 768px) {
   .header__menu {
     display: none;
   }
@@ -287,5 +283,13 @@
     font-size: 6.9rem;
     line-height: 100%;
     width: 30rem;
-  }
+  } 
 }
+
+ @media (max-width: 768px) {
+  .header__ul {
+    display: none;
+  }
+
+}
+
