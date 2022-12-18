@@ -28,16 +28,33 @@
   <header class="header__desktop">
     <nav class="header__nav">
       <ul class="header__ul">
-        <li><a class="header__ul--underline" href="#">Hello</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a class="header__ul--hello" href="#">Hello</a></li>
+        <li><a class="header__ul--underline" href="#">Portfolio</a></li>
+        <li><a class="header__ul--underline" href="#">About</a></li>
+        <li><a class="header__ul--underline" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <div class="cards__desktop">
+    <img src="./icons/pc1.png" alt="" />
+    <div class="cards__content__desktop">
+      <h3 class="cards__subtitle__desktop">Project name goes...</h3>
+      <ul class="cards__technologies__desktop">
+        <li>HTML/CSS</li>
+        <li>Ruby on Rails</li>
+        <li>Javascript</li>
+      </ul>
+      <button class="cards__button__desktop">See this project<span class="material-symbols-outlined">
+          arrow_forward
+        </span>
+      </button>
+    </div>
+  </div>
+
+
   <!-- ======Headline====== -->
-  <section class="headline">
+  <section class="headline__container--background-image">
     <h1 class="headline__title">Rubén Cuervo</h1>
     <p class="headline__paragraph">Hello! I am a software developer! I can help you build a
       product,
@@ -47,11 +64,11 @@
     </p>
     <a class="headline__link" href="">Start collaboration</a>
   </section>
-    <!-- ======Projects====== -->
+  <!-- ======Projects====== -->
   <main>
-    <section>
+    <section class="cards">
       <h2>Projects</h2>
-      <div class="cards__projects">
+      <div class="cards__projects cards__projects--background-image">
         <div>
           <img src="./icons/pc1.png" alt="" />
           <div class="cards__content">
@@ -143,58 +160,57 @@
           </div>
         </div>
       </div>
-    </sectionass=>
-    <!-- ======About====== -->
-    <section>
-      <div>
-        <h2>About</h2>
-        <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Inventore
-          iste laboriosam atque numquam quod dolorum aspernatur amet, cupiditate et ratione expedita veritatis
-          necessitatibus alias in.
-        </p>
-        <a class="about__link" href="" download="">Get my CV<span
-            class="material-symbols-outlined">
-            download </span>
-        </a>
-      </div>
-      <div>
-        <div class="about__cards about__cards--bkgc1">
-          <h3 class="about__subtitle">Languages</h3>
-          <ul class="about__technologies">
-            <li>Javascript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
+      </sectionass=>
+      <!-- ======About====== -->
+      <section class="about">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Inventore
+            iste laboriosam atque numquam quod dolorum aspernatur amet, cupiditate et ratione expedita veritatis
+            necessitatibus alias in.
+          </p>
+          <a class="about__link" href="" download="">Get my CV<span class="material-symbols-outlined">
+              download </span>
+          </a>
         </div>
-        <div class="about__cards about__cards--bkgc2">
-          <h3 class="about__subtitle">Frameworks</h3>
-          <ul class="about__technologies">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>Capibara</li>
-            <li>Selenium</li>
-          </ul>
+        <div class="about__languages">
+          <div class="about__cards about__cards--bkgc1">
+            <h3 class="about__subtitle">Languages</h3>
+            <ul class="about__technologies">
+              <li>Javascript (ES5/ES6)</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="about__cards about__cards--bkgc2">
+            <h3 class="about__subtitle">Frameworks</h3>
+            <ul class="about__technologies">
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capibara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="about__cards about__cards--bkgc3">
+            <h3 class="about__subtitle">Skills</h3>
+            <ul class="about__technologies">
+              <li>Codekit</li>
+              <li>Codepen</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
         </div>
-        <div class="about__cards about__cards--bkgc3">
-          <h3 class="about__subtitle">Skills</h3>
-          <ul class="about__technologies">
-            <li>Codekit</li>
-            <li>Codepen</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-            <li>Terminal</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
   </main>
   <!-- ======Footer====== -->
   <footer>
     <section class="footer">
-      <div >
+      <div class="footer__content">
         <h2 class="footer__title">Get started</h2>
         <p class="footer__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Natus magni minus nesciunt id corporis accusamus.
@@ -203,13 +219,12 @@
           <ul class="footer__ul">
             <li>
               <label for=""></label>
-              <input class="footer__input" type="text" id="name" name="user_name" placeholder="Your name"
-                maxlength="30" required />
+              <input class="footer__input" type="text" id="name" name="user_name" placeholder="Your name" maxlength="30"
+                required />
             </li>
             <li>
               <label for=""></label>
-              <input class="footer__input" type="email" id="mail" name="user_email" placeholder="Your email"
-                required />
+              <input class="footer__input" type="email" id="mail" name="user_email" placeholder="Your email" required />
             </li>
             <li>
               <label for=""></label>
