@@ -329,6 +329,7 @@
 
   .cards__projects__desktop {
     display: grid;
+    width: 950px;
   }
 
   .cards__projects__desktop div {
