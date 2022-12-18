@@ -105,7 +105,7 @@
   gap: 0.5rem;
 }
 
-.cards__technologies>li {
+.cards__technologies > li {
   background-color: #98dede;
   color: black;
   padding: 0.5rem;
@@ -255,7 +255,6 @@
 }
 
 @media (min-width: 768px) {
-
   /* ======HEADER======  */
   .header {
     display: none;
@@ -343,7 +342,7 @@
     position: absolute;
     width: 1440px;
     height: 329px;
-    left: 0px;
+    left: 0;
     top: 231px;
   }
 
@@ -351,7 +350,7 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 80%;
-    color: #FFFFFF;
+    color: #fff;
     margin-bottom: 62px;
     margin-top: 21px;
   }
@@ -363,7 +362,7 @@
     gap: 0.5rem;
   }
 
-  .cards__technologies__desktop>li {
+  .cards__technologies__desktop > li {
     background-color: #98dede;
     color: black;
     padding: 0.5rem;
@@ -391,7 +390,7 @@
     width: max-content;
   }
 
-  .cards>h2 {
+  .cards > h2 {
     transform: rotate(-90deg);
     font-weight: 400;
     font-size: 110px;
@@ -403,7 +402,7 @@
     right: 11px;
   }
 
-  .cards__projects>div {
+  .cards__projects > div {
     display: none;
   }
 
@@ -424,7 +423,6 @@
     background-repeat: no-repeat;
     background-position: top;
     height: 1643px;
-
   }
 
   .about {
@@ -476,12 +474,12 @@
     background-position: top left;
     background-size: 20%;
     height: 800px;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
   }
 
   .footer__title {
     text-align: center;
-    color: #1A2236;
+    color: #1a2236;
     font-weight: bold;
     font-size: 6.8rem;
     line-height: 100%;
@@ -499,7 +497,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
     position: absolute;
     width: 254px;
     height: 60px;
@@ -511,7 +509,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #7D7C84;
+    color: #7d7c84;
     position: absolute;
     width: 254px;
     height: 60px;
@@ -523,7 +521,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #7D7C84;
+    color: #7d7c84;
     position: absolute;
     width: 542px;
     height: 162px;
@@ -543,7 +541,6 @@
     height: 4.1rem;
     left: 605px;
     top: 4200px;
-
   }
 
   .footer__link {
@@ -562,15 +559,11 @@
     height: 123px;
     padding-top: 33px;
   }
-
 }
 
 @media (max-width: 768px) {
-
   .header__ul,
   .cards__desktop {
     display: none;
   }
-
-
 }
